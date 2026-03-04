@@ -2,11 +2,18 @@
   "name": "@render-px/ui",
   "version": "0.1.0",
   "description": "Token-based UI components: Button, Badge, Callout, InlineCode",
-  "keywords": ["react", "ui", "components", "design-system", "tailwind", "cva"],
+  "keywords": [
+    "react",
+    "ui",
+    "components",
+    "design-system",
+    "tailwind",
+    "cva"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/armin-es/render-px-ui.git"
+    "url": "git+https://github.com/armin-es/render-px-ui.git"
   },
   "type": "module",
   "main": "./dist/index.js",
