@@ -87,7 +87,7 @@ module.exports = {
   content: [
     './src/**/*.{ts,tsx}',
     // Required: include the package so Tailwind does not purge its classes
-    './node_modules/@render-px/ui/dist/**/*.{js,mjs}',
+    './node_modules/@render-px/ui/dist/**/*.{js,cjs}',
   ],
   theme: {
     extend: {
@@ -199,8 +199,8 @@ three components forward refs implicitly via prop spreading onto native elements
 │       ├── callout.tsx
 │       └── inline-code.tsx
 ├── dist/
-│   ├── index.js                  CJS (require)
-│   ├── index.mjs                 ESM (import)
+│   ├── index.js                  ESM (import)
+│   ├── index.cjs                 CJS (require)
 │   └── index.d.ts                TypeScript declarations
 ├── tsup.config.ts                builds CJS + ESM + .d.ts, externalizes react
 └── tsconfig.json                 ESNext, bundler resolution, react-jsx
